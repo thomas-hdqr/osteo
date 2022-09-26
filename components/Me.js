@@ -2,7 +2,7 @@ import React from 'react'
 
 function Me() {
   return (
-    <section>Me</section>
+    <section id="me">Me</section>
   )
 }
 
