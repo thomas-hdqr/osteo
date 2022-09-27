@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { navLinks } from '../constants'
-import { XMarkIcon, Bars3Icon } from '@heroicons/react/24/solid'
+import { menu, close } from '../assets'
+import Image from 'next/image';
 
 
 function Navbar() {
@@ -9,7 +10,7 @@ function Navbar() {
 
 
   return (
-    <nav className="w-full flex p-10 justify-between">
+    <nav className="w-full flex justify-between">
         <div className="flex flex-col justify-start">
           <p className="text-2xl font-semibold">Anaïs Haudiquer</p>
           <p>Ostéopathe</p>
@@ -31,14 +32,15 @@ function Navbar() {
 
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
-          <img 
-          src={toggle ? XMarkIcon : Bars3Icon }
+          <Image 
+          src={toggle ? close : menu }
           alt="menu"
           className="w-[28px] h-[28px] object-contain"
-          onClick={() => setToggle((prev) => !prev)}></img>
+          onClick={() => setToggle((prev) => !prev)} 
+          />
 
           <div className=
-          {`${toggle ? 'flex' : 'hidden' } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+          {`${toggle ? 'flex' : 'hidden' } p-6 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl`}>
           
           <ul className="list-none flex flex-col justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
@@ -46,7 +48,7 @@ function Navbar() {
               key={nav.id}
               className={`font-poppins font-normal cursor-pointer text-[16px] 
               ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'}
-              text-white`}
+              `}
             >
               <a href={`#${nav.id}`}>
                 {nav.title}
@@ -57,7 +59,6 @@ function Navbar() {
           </div>
 
         </div>
-
 
     </nav>
   )
