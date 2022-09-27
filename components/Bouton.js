@@ -1,18 +1,14 @@
 import { doctolib } from '../assets'
 import Image from 'next/image'
-import { Button, ButtonGroup } from '@chakra-ui/react'
 
 function Bouton() {
   return (
     <div>
       <a href="https://doctolib.com/" target="_blank" rel="noopener noreferrer">
-        <Button 
-          colorScheme='#1C3879'
-          variant='outline'
-          rightIcon={<Image src={doctolib} alt='' layout='fill' />}
-        >
-          Prendre rendez-vous
-        </Button>
+      <div className="w-96 flex flex-row outline outline-2 rounded-lg hover:shadow-xl cursor-pointer place-items-center justify-center">
+            <p className="pr-4">Prendre un rendez-vous</p>
+            <Image src={doctolib} alt='' width='80' height='80' />
+      </div>
       </a>
     </div>
   )
