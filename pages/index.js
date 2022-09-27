@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
 import Me from '../components/Me'
@@ -11,7 +10,7 @@ export default function Home() {
   return (
     <div className="p-[3rem]">
       <Hero />
-      {/* <Me /> */}
+      <Me />
       {/* <Why /> */}
       {/* <Who /> */}
       {/* <Contact /> */}

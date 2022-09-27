@@ -29,9 +29,9 @@ function Hero() {
   return (
     <section>
       <Navbar />
-      <div className="">
+      <div className="md:pt-[300px] pt-[200px] h-screen">
         <motion.div
-          className="App"
+          className="pb-[50px]"
           initial="hidden"
           animate={'visible'}
           variants={container}
@@ -42,7 +42,9 @@ function Hero() {
             })}
           </div>
          </motion.div>
-      <Bouton />
+         <div>
+          <Bouton className="" />
+         </div>
       </div>
     </section>
   )
