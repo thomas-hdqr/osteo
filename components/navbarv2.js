@@ -11,6 +11,11 @@ function Navbar() {
 
   return (
     <nav className="w-full flex justify-between">
+        <div className="flex flex-col justify-start">
+          <p className="text-2xl font-semibold">Anaïs Haudiquer</p>
+          <p>Ostéopathe</p>
+        </div>
+
 
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
