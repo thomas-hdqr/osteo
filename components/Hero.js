@@ -27,7 +27,7 @@ function Hero() {
 
 
   return (
-    <section>
+    <section className="p-[3rem]">
       <Navbar />
       <div className="md:pt-[300px] pt-[200px] h-screen">
         <motion.div

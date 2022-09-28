@@ -14,6 +14,7 @@
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@heroicons/react": "^2.0.11",
+    "@lottiefiles/lottie-player": "^1.5.7",
     "framer-motion": "^7.4.0",
     "gsap": "^3.11.2",
     "next": "12.3.1",

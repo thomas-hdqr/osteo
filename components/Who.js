@@ -2,7 +2,7 @@ import React from 'react'
 
 function Who() {
   return (
-    <section id="who">Who</section>
+    <section id="who" className="p-[3rem]">Who</section>
   )
 }
 

@@ -14,7 +14,8 @@ const Wrapper = (props) => {
 const tagMap = {
   paragraph: "p",
   heading1: "h1",
-  heading2: "h2"
+  heading2: "h2",
+  heading3: "h3"
 };
 
 // AnimatedCharacters

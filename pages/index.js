@@ -9,16 +9,12 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     <div>
-      <div className="p-[3rem]">
         <Hero />
         <Me />
         <Why />
         <Who />
         <Contact />
-      </div>
-      <div>
         <Footer />
-      </div>
     </div>
   )
 }

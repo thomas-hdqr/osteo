@@ -1,44 +1,25 @@
-import React from 'react'
 
 function Why() {
   return (
     <section className="p-[3rem]">
-      <div className="text-center pb-10">
-        <h3>Pourquoi l'Ostéopathie</h3>
+      <div className="pb-10">
+        <h3>Pourquoi l&apos;Ostéopathie</h3>
       </div>
-      <div className="md:grid grid-cols-3 text-center">
-        <div>
-          <div>
+      <div className="md:grid grid-cols-3">
+        <div className="grid justify-evenly">
             <p>Image</p>
-          </div>
-          <div>
             <p>Texte</p>
-          </div>
-          <div>
             <p>Paragraphe</p>
-          </div>
         </div>
-        <div>
-          <div>
+        <div className="grid justify-evenly">
             <p>Image</p>
-          </div>
-          <div>
             <p>Texte</p>
-          </div>
-          <div>
             <p>Paragraphe</p>
-          </div>
         </div>
-        <div>
-          <div>
+        <div className="grid justify-evenly">
             <p>Image</p>
-          </div>
-          <div>
             <p>Texte</p>
-          </div>
-          <div>
             <p>Paragraphe</p>
-          </div>
         </div>
       </div>
     </section>

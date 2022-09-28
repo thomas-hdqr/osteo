@@ -4,7 +4,7 @@ import { me } from '../assets'
 function Me() {
   return (
     <section id="me"
-    className="md:grid grid-cols-3">
+    className="md:grid grid-cols-3 p-[3rem]">
       <div className="col-span-2">
         <Image className="rounded-lg" src={me} alt="" width="550vw" height="550vh"objectFit='cover'/>
       </div>
