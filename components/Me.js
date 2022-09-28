@@ -10,7 +10,7 @@ function Me() {
       </div>
       <div className="">
         <h3>Qui suis-je</h3>
-        <p className="pt-5 leading-10">Lorem ipsum dolor sit amet. Et quia voluptate qui quibusdam obcaecati At explicabo earum. Et ratione consequuntur sit magnam odio ea ipsa voluptates. Nam voluptatem consequatur vel molestiae facilis aut consequatur dignissimos aut nihil aspernatur vel magni unde. Est velit placeat et nihil obcaecati ad quasi necessitatibus ut aliquid aspernatur est molestiae dolores. Qui quis commodi sit internos galisum ea modi odio.</p>
+        <p className="pt-5 leading-10">Lorem ipsum dolor sit amet. Et quia voluptate qui quibusdam obcaecati At explicabo earum. Et ratione consequuntur sit magnam odio ea ipsa voluptates. Nam voluptatem consequatur vel molestiae facilis aut consequatur dignissimos aut nihil aspernatur vel magni unde.</p>
       </div>
     </section>
   )

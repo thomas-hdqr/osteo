@@ -13,6 +13,20 @@
 
 }
 
+
+@layer components {
+  .footer-title {
+    @apply text-[#F9F5EB] text-2xl text-center pb-2 capitalize
+  }
+  .footer-items {
+    @apply text-[#F9F5EB] text-xl text-center font-thin 
+  }
+  .bouton-doctolib {
+    @apply w-96 flex flex-row outline outline-2 rounded-lg hover:shadow-xl hover:bg-[#1C3879] hover:text-[#F9F5EB] hover:outline-[#1C3879] cursor-pointer place-items-center justify-center
+  }
+  
+}
+
 .word-wrapper {
     white-space: nowrap;
   }
