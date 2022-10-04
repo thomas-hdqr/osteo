@@ -1,50 +1,29 @@
-import { motion } from "framer-motion"
+import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import Bouton from './Bouton'
-import AnimatedTitle from './AnimatedTitle'
+import { herocover } from '../assets'
 
 
 function Hero() {
 
-  const placeholderText = [
-    { 
-      type: "heading1", 
-      text: "Anaïs Haudiquer",
-    },
-    {
-      type: "heading2",
-      text: "Ostéopathe basée à Roanne"
-    }
-  ];
-
-  const container = {
-    visible: {
-      transition: {
-        staggerChildren: 0.025  
-      }
-    }
-  };
-
-
   return (
-    <section className="p-[3rem]">
-      <Navbar />
-      <div className="md:pt-[300px] pt-[200px] h-screen">
-        <motion.div
-          className="pb-[50px]"
-          initial="hidden"
-          animate={'visible'}
-          variants={container}
-        >
-          <div className="container">
-            {placeholderText.map((item, index) => {
-              return <AnimatedTitle {...item} key={index} />;
-            })}
+    <section className="">
+      <div className="grid grid-cols-2">
+          <div className="px-20">
+            <div className='py-12' >
+              <Navbar />
+            </div>
+            <div className="sm:pt-[6rem]">
+              <h1 className="font-semibold">Anaïs <br/>Haudiquer</h1>
+              <h1 className="text-[2rem] font-normal pt-4 pb-10">Ostéopathe basée à Roanne</h1>
+            </div>
+            <div>
+              <Bouton />
+            </div>
           </div>
-         </motion.div>
-         <div>
-          <Bouton className="" />
-         </div>
+          <div className="">
+            <Image src={herocover} alt="" />
+          </div>
       </div>
     </section>
   )

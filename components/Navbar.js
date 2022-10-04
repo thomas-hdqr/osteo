@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className="w-full flex justify-between">
 
-        <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+        <ul className="list-none sm:flex hidden justify-start items-center flex-1">
           {navLinks.map((nav, index) => (
             <li
               className={`hover:font-medium cursor-pointer ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`} 

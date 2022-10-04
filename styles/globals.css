@@ -22,7 +22,7 @@
     @apply text-[#F9F5EB] text-xl text-center font-thin 
   }
   .bouton-doctolib {
-    @apply w-96 flex flex-row outline outline-2 rounded-lg hover:shadow-xl hover:bg-[#1C3879] hover:text-[#F9F5EB] hover:outline-[#1C3879] cursor-pointer place-items-center justify-center
+    @apply w-96 flex flex-row outline outline-2 rounded-2xl hover:shadow-xl hover:bg-[#1C3879] hover:text-[#F9F5EB] hover:outline-[#1C3879] cursor-pointer place-items-center justify-center
   }
   
 }
@@ -33,11 +33,10 @@
 
   h1 {
     font-size: 4rem;
-    font-weight: 500;
   }
 
   h2, h3 {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
 
   p, ul, li {
