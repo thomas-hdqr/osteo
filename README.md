@@ -13,6 +13,6 @@ Built with Nextjs, Reactjs, Tailwindcss
 - bleu = #1C3879
 - beige = #DCD6D6
 - titres principaux: 4rem
-- espacement = p-20
+- espacement = p-20 
 
 
