@@ -1,6 +1,7 @@
 Built with Nextjs, Reactjs, Tailwindcss
 
 ###### Things to improve ######
+- lear gsap
 - add more framer motion
 - improve responsive
 - integrate Google Maps

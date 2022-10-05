@@ -3,7 +3,7 @@ function Why() {
   return (
     <section id="why" className="p-20">
       <div className="pb-10 text-center font-semibold">
-        <h3>L&apos;Ostéopathie</h3>
+        <h2>L&apos;Ostéopathie</h2>
       </div>
       <div className="md:grid grid-cols-3">
         <div className="grid justify-evenly text-center border-r-2 border-[#1C3879] p-8">

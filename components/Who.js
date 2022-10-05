@@ -4,7 +4,7 @@ function Who() {
   return (
     <section id="who" className="p-20">
       <div className="font-semibold pb-8">
-        <h3>Pour qui ?</h3>
+        <h2>Pour qui ?</h2>
       </div>
 
       {/* partie avec les personnes en 3d */}
