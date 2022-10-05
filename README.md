@@ -4,8 +4,8 @@ Built with Nextjs, Reactjs, Tailwindcss
 - add more framer motion
 - improve responsive
 - integrate Google Maps
-- add Simple analytics
-- refactor tailwindcss code
+- add Google Analytics
+- add a blog section with Sanity.io
 
 
 

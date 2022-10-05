@@ -27,9 +27,6 @@
   
 }
 
-.word-wrapper {
-    white-space: nowrap;
-  }
 
   h1 {
     font-size: 4rem;
@@ -41,10 +38,8 @@
 
   p, ul, li {
     font-size: 1.125rem;
+    line-height: 2rem;
   }
 
-  body {
-    line-height: 3.5rem;
-  }
 
  
