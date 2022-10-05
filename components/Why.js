@@ -1,7 +1,7 @@
 
 function Why() {
   return (
-    <section className="px-20">
+    <section id="why" className="p-20">
       <div className="pb-10 text-center font-semibold">
         <h3>L&apos;Ostéopathie</h3>
       </div>
