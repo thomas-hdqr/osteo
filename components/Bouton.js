@@ -1,4 +1,4 @@
-import { doctolib } from '../assets'
+import doctolib from '../public/doctolib.svg'
 import Image from 'next/image'
 
 function Bouton() {

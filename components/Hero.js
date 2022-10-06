@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import Bouton from './Bouton'
-import { herocover } from '../assets'
+import herocover from '../public/herocover.png'
 
 
 function Hero() {

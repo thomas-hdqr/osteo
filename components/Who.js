@@ -1,6 +1,9 @@
 import React from 'react'
+import Whocard from './Whocard'
+import Whodata from './Whodata'
 
 function Who() {
+
   return (
     <section id="who" className="p-20">
       <div className="font-semibold pb-8">
@@ -8,15 +11,14 @@ function Who() {
       </div>
 
       {/* partie avec les personnes en 3d */}
-      <div className="flex flex-nowrap overflow-x-auto cursor-grab">
-        <div className="flex flex-auto flex-col relative bg-[#1C3879] w-80 h-80 rounded-2xl mx-5">
-        </div>
-        <div className="flex flex-auto flex-col relative bg-[#1C3879] w-80 h-80 rounded-2xl mx-5">
-        </div>
-        <div className="flex flex-auto flex-col relative bg-[#1C3879] w-80 h-80 rounded-2xl mx-5">
-        </div>
-        <div className="flex flex-auto flex-col relative bg-[#1C3879] w-80 h-80 rounded-2xl mx-5">
-        </div>
+      <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
+        {Whodata.map(({ id, img, title }) => (
+                <Whocard 
+                key={id}
+                img={img} 
+                title={title}
+                />
+              ))}
       </div>
 
     </section>

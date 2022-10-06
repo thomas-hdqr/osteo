@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { me } from '../assets'
+import me from '../public/me.png'
 
 function Me() {
   return (

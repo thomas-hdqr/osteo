@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { navLinks } from '../constants'
-import { menu, close } from '../assets'
+import menu  from '../public/menu.svg'
+import close from '../public/close.svg'
 import Image from 'next/image';
 
 
