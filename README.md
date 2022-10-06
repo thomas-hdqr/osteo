@@ -7,7 +7,7 @@ Built with Nextjs, Reactjs, Tailwindcss
 - learn gsap
 - add more framer motion
 - add a blog section with Sanity.io
-- add a favicon
+- improve seo
 
 
 
