@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
-function Whocard({img, title}) {
+function Whocard({image, title}) {
   return (
     <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out">
         <div className="relative h-80 w-80">
-          <Image className="rounded-xl"
+          <Image className="rounded-2xl"
           alt=""
-          src={img}
+          src={image}
           layout="fill"
           />
         </div>

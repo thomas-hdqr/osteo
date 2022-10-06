@@ -12,10 +12,10 @@ function Who() {
 
       {/* partie avec les personnes en 3d */}
       <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
-        {Whodata.map(({ id, img, title }) => (
+        {Whodata.map(({ id, image, title }) => (
                 <Whocard 
                 key={id}
-                img={img} 
+                img={image} 
                 title={title}
                 />
               ))}
