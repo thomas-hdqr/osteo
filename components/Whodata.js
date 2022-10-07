@@ -2,39 +2,40 @@
 export default [
     {
         id: 1,
-        image: "/public/herocover.png",
+        image: "/herocover.png",
+        alt:"nourrisson",
         title: "Nourrisson",
     },
     {
-        id: 1,
-        image: "/public/me.png",
-        title: "Nourrisson",
-        description: "test",
+        id: 2,
+        image: "/herocover.png",
+        alt:"enfant",
+        title: "Enfant",
+    },
+    {
+        id: 3,
+        image: "/herocover.png",
+        alt:"sportif",
+        title: "Sportif",
     },
     {
         id: 1,
-        image: "/public/me.png",
-        title: "Nourrisson",
+        image: "/herocover.png",
+        alt:"adulte",
+        title: "Adulte",
     },
     {
         id: 1,
-        image: "/public/me.png",
-        title: "Nourrisson",
+        image: "/herocover.png",
+        alt:"femme enceinte",
+        title: "Femme enceinte",
     },
     {
         id: 1,
-        image: "/public/herocover.png",
-        title: "Nourrisson",
+        image: "/herocover.png",
+        alt:"senior",
+        title: "Senior",
     },
-    {
-        id: 1,
-        image: "/public/me.png",
-        title: "Nourrisson",
-    },
-    {
-        id: 1,
-        image: "/public/me.png",
-        title: "Nourrisson",
-    }
+
 ]
 

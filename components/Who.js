@@ -1,6 +1,7 @@
 import React from 'react'
 import Whocard from './Whocard'
 import Whodata from './Whodata'
+import Image from 'next/image'
 
 function Who() {
 
@@ -12,10 +13,11 @@ function Who() {
 
       {/* partie avec les personnes en 3d */}
       <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
-        {Whodata.map(({ id, image, title }) => (
+        {Whodata.map(({ id, image, title, alt }) => (
                 <Whocard 
                 key={id}
-                img={image} 
+                image={image} 
+                alt={alt}
                 title={title}
                 />
               ))}

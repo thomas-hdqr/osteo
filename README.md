@@ -4,6 +4,7 @@ Built with Nextjs, Reactjs, Tailwindcss
 - improve responsive
     - use md: for the responsive, especially for grid layout
 - fix button layout
+- do a better burger menu for mobile
 - add Google Analytics
 - learn gsap
 - add more framer motion

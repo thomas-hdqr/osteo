@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <section className="bg-[#1C3879] w-full p-[3rem]">
+    <section className="bg-[#1C3879] w-full p-20">
       <div className="md:grid grid-cols-3">
         <div className="">
           <p className="footer-title">Horaires</p>
