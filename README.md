@@ -2,6 +2,7 @@ Built with Nextjs, Reactjs, Tailwindcss
 
 ###### Things to improve ######
 - improve responsive
+    - use md: for the responsive, especially for grid layout
 - integrate Google Maps
 - add Google Analytics
 - learn gsap
