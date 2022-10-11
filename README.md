@@ -9,6 +9,7 @@ Built with Nextjs, Reactjs, Tailwindcss
 - improve seo
 - add real links
 - verify the mailto and phone link
+- make navbar floating
 - learn gsap
 - add more framer motion
 - add loading animation
