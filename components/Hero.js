@@ -8,7 +8,7 @@ function Hero() {
 
   return (
     <section className="">
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 ">
           <div className="px-20">
             <div className='py-12' >
               <Navbar />

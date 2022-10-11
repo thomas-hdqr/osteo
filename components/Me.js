@@ -3,7 +3,7 @@ import me from '../public/me.png'
 
 function Me() {
   return (
-    <section id="me" className="md:grid grid-cols-2 p-12 bg-[#1C3879] m-20 rounded-2xl justify-center items-center drop-shadow-2xl ">
+    <section id="me" className="md:grid grid-cols-2 p-12 bg-[#1C3879] m-20 rounded-2xl justify-center items-center drop-shadow-2xl">
       <div className="">
         <Image className="rounded-2xl" src={me} alt="" objectFit='contain' />
       </div>

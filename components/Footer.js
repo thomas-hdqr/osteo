@@ -15,7 +15,7 @@ function Footer() {
         </div>
         <div className="">
           <p className="footer-title">Adresse</p>
-          <p className="footer-items">93 Bd de Belgique</p>
+          <p className="footer-items">32 Bd de Belgique</p>
           <p className="footer-items">42300 - Roanne</p>
         </div>
         <div className="">

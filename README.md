@@ -11,6 +11,7 @@ Built with Nextjs, Reactjs, Tailwindcss
 - verify the mailto and phone link
 - make navbar floating
 - add more framer motion
+- add animation to who card component
 - add a blog section with Sanity.io
 
 
