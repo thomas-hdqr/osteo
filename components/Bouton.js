@@ -5,7 +5,7 @@ function Bouton() {
   return (
     <div>
       <div className="bouton-doctolib">
-        <a href="https://doctolib.com/" className="flex flex-row place-items-center justify-center" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.doctolib.fr/osteopathe/roanne/anais-haudiquer-roanne" className="flex flex-row place-items-center justify-center" target="_blank" rel="noopener noreferrer">
           <p className="pr-4">Prendre un rendez-vous</p>
           <Image src={doctolib} alt='' width='80' height='80' />
         </a>
