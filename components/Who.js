@@ -6,7 +6,7 @@ import Image from 'next/image'
 function Who() {
 
   return (
-    <section id="who" className="p-20">
+    <section id="who" className="sm:p-20">
       <div className="font-semibold pb-8">
         <h2>Pour qui ?</h2>
       </div>

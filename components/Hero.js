@@ -8,7 +8,7 @@ function Hero() {
 
   return (
     <section className="">
-      <div className="grid grid-cols-2 ">
+      <div className="sm:grid grid-cols-2 ">
           <div className="px-20">
             <div className='py-12' >
               <Navbar />
@@ -21,7 +21,7 @@ function Hero() {
               <Bouton />
             </div>
           </div>
-          <div className="">
+          <div className="hidden sm:grid">
             <Image src={herocover} alt="" />
           </div>
       </div>

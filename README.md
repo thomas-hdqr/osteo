@@ -8,7 +8,6 @@ Built with Nextjs, Reactjs, Tailwindcss
 - do a better burger menu for mobile
 - add Google Analytics
 - improve seo
-- add real links
 - add more framer motion
 - add animation to who card component
 - add a blog section with Sanity.io
@@ -19,6 +18,6 @@ Built with Nextjs, Reactjs, Tailwindcss
 - bleu = #1C3879
 - beige = #DCD6D6
 - titres principaux: 4rem
-- espacement = p-20 
+- espacement = p-20 (pour le responsive px-20 et py-10)
 
 

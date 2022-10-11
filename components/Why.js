@@ -1,11 +1,11 @@
 
 function Why() {
   return (
-    <section id="why" className="p-20">
+    <section id="why" className="sm:p-20">
       <div className="pb-10 text-center font-semibold">
         <h2>L&apos;Ostéopathie</h2>
       </div>
-      <div className="md:grid grid-cols-3">
+      <div className="sm:grid grid-cols-3">
         <div className="grid justify-evenly text-center border-r-2 border-[#1C3879] p-8">
             <p className="font-semibold text-2xl">Soulage</p>
             <p className="pt-5">Une capacité à soulager les douleurs pouvant toucher tout type d’individu.</p>

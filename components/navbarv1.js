@@ -13,8 +13,6 @@ function Navbar() {
   return (
     <nav className="w-full flex justify-between">
 
-
-        {/* Desktop navbar */}
         <ul className="list-none sm:flex hidden justify-start items-center flex-1">
           {navLinks.map((nav, index) => (
             <li
@@ -28,7 +26,7 @@ function Navbar() {
           ))}
         </ul>
 
-        {/* Responsive navbar */}
+
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <Image 
           src={toggle ? close : menu }
@@ -36,25 +34,28 @@ function Navbar() {
           className="w-[28px] h-[28px] object-contain"
           onClick={() => setToggle((prev) => !prev)} 
           />
+
           <div className=
           {`${toggle ? 'flex' : 'hidden' } p-6 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl`}>
-            <ul className="list-none flex flex-col justify-end items-center flex-1">
-            {navLinks.map((nav, index) => (
-              <li
-                key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[16px] 
-                ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'}
-                `}
-              >
-                <a href={`#${nav.id}`}>
-                  {nav.title}
-                </a>
-              </li>
-            ))}
-            </ul>
+          
+          <ul className="list-none flex flex-col justify-end items-center flex-1">
+          {navLinks.map((nav, index) => (
+            <li
+              key={nav.id}
+              className={`font-poppins font-normal cursor-pointer text-[16px] 
+              ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'}
+              `}
+            >
+              <a href={`#${nav.id}`}>
+                {nav.title}
+              </a>
+            </li>
+          ))}
+        </ul>
           </div>
 
         </div>
+
     </nav>
   )
 }
