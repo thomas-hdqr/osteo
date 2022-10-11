@@ -10,9 +10,7 @@ Built with Nextjs, Reactjs, Tailwindcss
 - add real links
 - verify the mailto and phone link
 - make navbar floating
-- learn gsap
 - add more framer motion
-- add loading animation
 - add a blog section with Sanity.io
 
 
