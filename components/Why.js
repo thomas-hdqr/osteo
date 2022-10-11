@@ -7,16 +7,16 @@ function Why() {
       </div>
       <div className="md:grid grid-cols-3">
         <div className="grid justify-evenly text-center border-r-2 border-[#1C3879] p-8">
-            <p className="font-semibold text-2xl">Soulage les douleurs</p>
-            <p className="pt-5">Idéale pour soulager les maux du dos et toutes les tensions du corps</p>
+            <p className="font-semibold text-2xl">Soulage</p>
+            <p className="pt-5">Une capacité à soulager les douleurs pouvant toucher tout type d’individu.</p>
         </div>
         <div className="grid justify-evenly text-center border-r-2 border-[#1C3879] p-8">
-            <p className="font-semibold text-2xl">Soulage les douleurs</p>
-            <p className="pt-5">Idéale pour soulager les maux du dos et toutes les tensions du corps</p>
+            <p className="font-semibold text-2xl">Préviens</p>
+            <p className="pt-5">Idéale pour prévenir de futures douleurs, l’ostéopathie est une médecine manuelle complémentaire et peut être associée à d’autres thérapies / traitements.</p>
         </div>
         <div className="grid justify-evenly text-center p-8">
-            <p className="font-semibold text-2xl">Soulage les douleurs</p>
-            <p className="pt-5">Idéale pour soulager les maux du dos et toutes les tensions du corps</p>
+            <p className="font-semibold text-2xl">Conseil</p>
+            <p className="pt-5">L’ostéopathe à également un rôle de conseiller concernant la posture ou le mode de vie par exemple.</p>
         </div>
       </div>
     </section>

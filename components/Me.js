@@ -9,8 +9,8 @@ function Me() {
       </div>
       <div className="text-[#DCD6D6] text-right">
         <h2 className="font-semibold">Qui suis-je</h2>
-        <p className="pt-5">Lorem ipsum dolor sit amet. Et quia voluptate qui quibusdam obcaecati At explicabo earum. Et ratione consequuntur sit magnam odio ea ipsa voluptates. Nam voluptatem consequatur vel molestiae facilis aut consequatur dignissimos aut nihil aspernatur vel magni unde.</p>
-        <p className="pt-5">Et consequatur consequatur sit minima enim id numquam nostrum aut quam culpa eum vitae fugit ab quos neque et sint rerum. Ut vitae voluptate aut architecto vitae 33 nostrum reprehenderit.</p>
+        <p className="pt-5">Après un Bac ES, j’ai débuté une formation en 5 ans d’ostéopathie au sein du Ceeso Paris. Mon apprentissage m’a permis d’aborder et de comprendre les principes et la philosophie de l’ostéopathie. Au cours de cette formation j’ai pu acquérir des connaissances dans le domaine médicale en termes d’anatomie et de sémiologie. L’ostéopathie étant une médecine manuelle de première intention, cette formation m’a permis de comprendre comment et quand prendre en charge un patient. </p>
+        <p className="pt-5">Diplômée depuis Juin 2022, j’ai commencé une collaboration dans un cabinet à Paris pendant plusieurs mois. Aujourd’hui je vous accueille dans mon propre cabinet d’ostéopathie à Roanne.</p>
       </div>
     </section>
   )

@@ -6,7 +6,7 @@ function Contact() {
     <section id="contact" className="p-20">
 
       <div className="font-semibold pb-8">
-        <h3>Contact</h3>
+        <h3>Contact <span className="ml-2">👋</span></h3>
       </div>
 
 

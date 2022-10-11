@@ -6,11 +6,12 @@ Built with Nextjs, Reactjs, Tailwindcss
 - fix button layout
 - do a better burger menu for mobile
 - add Google Analytics
-- learn gsap
-- add more framer motion
 - improve seo
 - add real links
 - verify the mailto and phone link
+- learn gsap
+- add more framer motion
+- add loading animation
 - add a blog section with Sanity.io
 
 
