@@ -11,7 +11,7 @@ function Who() {
       </div>
 
       {/* partie avec les personnes en 3d */}
-      <div className="flex space-x-10 overflow-scroll scrollbar-hide p-3 -mr-3 drop-shadow-2xl">
+      <div className="flex space-x-6 sm:space-x-10 overflow-scroll scrollbar-hide p-3 -mr-3 drop-shadow-2xl">
         {Whodata.map(({ id, image, title, alt }) => (
                 <Whocard 
                 key={id}
