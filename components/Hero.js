@@ -7,7 +7,7 @@ import herocover from '../public/herocover.png'
 function Hero() {
 
   return (
-    <section className="">
+    <div className="">
       <div className="sm:grid grid-cols-2 ">
           <div className="px-20">
             <div className='py-12' >
@@ -25,7 +25,7 @@ function Hero() {
             <Image src={herocover} alt="" />
           </div>
       </div>
-    </section>
+    </div>
   )
 }
 

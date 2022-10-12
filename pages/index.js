@@ -15,12 +15,14 @@ export default function Home() {
           <meta name="description" content="Anaïs Haudiquer, Ostéopathe D.O basée à Roanne. Je vous accueille dans mon cabinet du Lundi au Samedi sur rendez-vous au 07 88 61 04 51 ou Doctolib." />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Hero />
-        <Me />
-        <Why />
-        <Who />
-        <Contact />
-        <Footer />
+        <main className="">
+          <Hero />
+          <Me />
+          <Why />
+          <Who />
+          <Contact />
+          <Footer />
+        </main>
     </div>
   )
 }

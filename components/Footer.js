@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <section className="bg-[#1C3879] w-full sm:px-20 pt-20">
+    <div className="bg-[#1C3879] w-full sm:px-20 pt-20">
       <div className="sm:grid grid-cols-3">
         <div className="pb-8">
           <p className="footer-title">Horaires</p>
@@ -28,7 +28,7 @@ function Footer() {
         </div>
       </div>
       <p className="text-[#F9F5EB] text-sm text-center font-thin  pt-4 pb-3">Fait avec ❤️ par Thomas</p>
-    </section>
+    </div>
   )
 }
 

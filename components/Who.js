@@ -1,12 +1,11 @@
 import React from 'react'
 import Whocard from './Whocard'
 import Whodata from './Whodata'
-import Image from 'next/image'
 
 function Who() {
 
   return (
-    <section id="who" className="sm:p-20 py-20 px-10">
+    <div id="who" className="sm:p-20 py-20 px-10">
       <div className="font-semibold pb-8">
         <h2>Pour qui ?</h2>
       </div>
@@ -23,7 +22,7 @@ function Who() {
               ))}
       </div>
 
-    </section>
+    </div>
   )
 }
 

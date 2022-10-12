@@ -3,7 +3,7 @@ import Bouton from './Bouton'
 
 function Contact() {
   return (
-    <section id="contact" className="sm:p-20 py-20 px-10">
+    <div id="contact" className="sm:p-20 py-20 px-10">
 
       <div className="font-semibold pb-8">
         <h3>Contact <span className="ml-2">👋</span></h3>
@@ -34,7 +34,7 @@ function Contact() {
       </div>
 
 
-    </section>
+    </div>
   )
 }
 
