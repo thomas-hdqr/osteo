@@ -106,12 +106,26 @@
 @media (min-width: 768px) {
   h1, h2, h3 {
       font-size: 4rem;
+      font-family: 'ClashDisplay-Semibold';
+      src: url('../fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+           url('../fonts/ClashDisplay-Semibold.woff') format('woff'),
+           url('../fonts/ClashDisplay-Semibold.ttf') format('truetype');
+           font-weight: 600;
+           font-display: swap;
+           font-style: normal;
     } 
 }
 
   p, ul, li {
     font-size: 1.125rem;
     line-height: 2rem;
+    font-family: 'ClashDisplay-Regular';
+    src: url('../fonts/ClashDisplay-Regular.woff2') format('woff2'),
+         url('../fonts/ClashDisplay-Regular.woff') format('woff'),
+         url('../fonts/ClashDisplay-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
   } 
 
 
@@ -119,5 +133,12 @@
 @media (max-width: 768px) {
   h1, h2, h3 {
       font-size: 40px;
+      font-family: 'ClashDisplay-Semibold';
+      src: url('../fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+           url('../fonts/ClashDisplay-Semibold.woff') format('woff'),
+           url('../fonts/ClashDisplay-Semibold.ttf') format('truetype');
+           font-weight: 600;
+           font-display: swap;
+           font-style: normal;
     }
 }

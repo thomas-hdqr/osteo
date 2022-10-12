@@ -17,7 +17,7 @@ function Hero() {
               <h1 className="font-semibold md:leading-[4rem]">Anaïs <br/>Haudiquer</h1>
               <h1 className="sm:text-[2rem] text-2xl font-normal pt-4 pb-10">Ostéopathe basée à Roanne</h1>
             </div>
-            <div className="">
+            <div className="rounded-2xl">
               <Bouton />
             </div>
           </div>
