@@ -16,11 +16,13 @@ function Contact() {
         <div>
           <div>
             <p>32 boulevard de Belgique</p>
-            <p className="md:pb-10">Roanne, 42300</p>
+            <p className="pb-10">Roanne, 42300</p>
             <p>Tél: 07 88 61 04 51</p>
-            <p className="md:pb-10">Email: anaishaudiquer@gmail.com</p>
+            <p className="pb-10">Email: anaishaudiquer@gmail.com</p>
           </div>
+          <div className="pb-10">
             <Bouton />
+          </div>
         </div>
         
         {/* intégration carte Google Maps */}
