@@ -1,12 +1,11 @@
 Built with Nextjs, Reactjs, Tailwindcss
 
 ###### Things to improve ######
-- check font on other platforms
+- round button doctolib for safari
 - make navbar floating
-- verify the mailto and phone link
 - do a better burger menu for mobile
 - add Google Analytics
-- add more framer motion
+- add framer motion
 - add animation to who card component
 - add a blog section with Sanity.io
 
