@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.container}>
         <Head>
           <title>Anaïs Haudiquer - Ostéopathe à Roanne</title>
           <meta name="description" content="Anaïs Haudiquer, Ostéopathe D.O basée à Roanne. Je vous accueille dans mon cabinet du Lundi au Samedi sur rendez-vous au 07 88 61 04 51 ou Doctolib." />
