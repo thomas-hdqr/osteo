@@ -1,8 +1,6 @@
 Built with Nextjs, Reactjs, Tailwindcss
 
 ###### Things to improve ######
-- improve responsive
-    - use md: for the responsive, especially for grid layout
 - check font on other platforms
 - make navbar floating
 - verify the mailto and phone link
