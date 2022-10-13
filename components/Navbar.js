@@ -11,14 +11,14 @@ function Navbar() {
 
 
   return (
-    <nav className="w-full flex justify-between">
+    <nav className="w-full flex justify-between relative">
 
 
         {/* Desktop navbar */}
-        <ul className="list-none sm:flex hidden justify-start items-center flex-1">
+        <ul className="list-none sm:flex hidden justify-center items-center flex-1 bg-white shadow-lg bg-opacity-10 bg-clip-padding backdrop-blur p-3 rounded-3xl">
           {navLinks.map((nav, index) => (
             <li
-              className={`hover:font-medium cursor-pointer ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`} 
+              className={`hover:font-semibold cursor-pointer hover:shadow-lg hover:bg-opacity-90 rounded-2xl p-2 hover:backdrop-blur hover:bg-[#1C3879] hover:text-[#F9F5EB] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`} 
               key={nav.id}
             >
               <a href={nav.url}>
@@ -37,7 +37,7 @@ function Navbar() {
           onClick={() => setToggle((prev) => !prev)} 
           />
           <div className=
-          {`${toggle ? 'flex' : 'hidden' } p-6 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl`}>
+          {`${toggle ? 'flex' : 'hidden' } p-6 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-2xl bg-white shadow-lg bg-opacity-30 bg-clip-padding backdrop-blur-sm`}>
             <ul className="list-none flex flex-col justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
               <li
