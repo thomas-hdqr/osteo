@@ -1,10 +1,8 @@
 Built with Nextjs, Reactjs, Tailwindcss
 
 ###### Things to improve ######
-- do a better burger menu for mobile
-- add framer motion
+- add framer motion or locomotiv scroll ?
 - add animation to who card component
-- make navbar floating
 - add Google Analytics
 - add a blog section with Sanity.io
 

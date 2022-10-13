@@ -7,7 +7,12 @@ import Who from '../components/Who'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
+ 
+
+
 export default function Home() {
+
+
   return (
     <div className={styles.container}>
         <Head>
@@ -23,6 +28,7 @@ export default function Home() {
           <Contact />
           <Footer />
         </main>
+
     </div>
   )
 }
