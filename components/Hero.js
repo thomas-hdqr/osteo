@@ -22,7 +22,7 @@ function Hero() {
             </div>
           </div>
           <div className="hidden sm:grid">
-            <Image src={herocover} alt="" />
+            <Image className="rounded-bl-2xl" src={herocover} alt="" />
           </div>
       </div>
     </div>
