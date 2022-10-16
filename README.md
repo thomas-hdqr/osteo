@@ -8,6 +8,12 @@ Built with Nextjs, Reactjs, Tailwindcss
 - add a blog section with Sanity.io
 
 
+###### Animations ######
+- Hero section: stagger animation of 3 elements: navbar > herocover > heading > button
+- Me: zoom in
+- Who: scroll x zoom in
+- Why / Contact: text reveal (fadein)
+
 
 ###### Charte graphique ######
 - bleu = [#1C3879]
