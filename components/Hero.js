@@ -18,6 +18,7 @@ function Hero() {
       y: 0,
       transition: {
         staggerChildren: 0.3,
+        delayChildren: 0.4,
         type: "spring",
         duration: 1
       }
