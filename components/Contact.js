@@ -18,7 +18,7 @@ function Contact() {
             <p>32 boulevard de Belgique</p>
             <p className="pb-10">Roanne, 42300</p>
             <p>Tél: 07 88 61 04 51</p>
-            <p className="pb-10">Email: anaishaudiquer@gmail.com</p>
+            <p className="pb-10"><a href="mailto:anaishaudiquer.osteo@gmail.com">Email: anaishaudiquer.osteo@gmail.com</a></p>
           </div>
           <div className="pb-10">
             <Bouton />

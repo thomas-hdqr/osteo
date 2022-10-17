@@ -24,7 +24,7 @@ function Footer() {
         <div className="pb-8">
           <p className="footer-title">Contact</p>
           <p className="footer-items">Tél: 07.88.61.04.51</p>
-          <p className="footer-items"><a href="mailto:anaishaudiquer@gmail.com">Email: anais@osteo-roanne.com</a></p>
+          <p className="footer-items"><a href="mailto:anaishaudiquer.osteo@gmail.com">Email: anais@osteo-roanne.com</a></p>
         </div>
       </div>
       <p className="text-[#F9F5EB] text-sm text-center font-thin  pt-4 pb-3">Fait avec ❤️ par Thomas</p>
