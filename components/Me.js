@@ -1,17 +1,17 @@
 import Image from 'next/image'
 import me from '../public/me.png'
-import { motion, useViewportScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 function Me() {
 
-  const { scrollYProgress } = useViewportScroll();
+  const { scrollYProgress } = useScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [0.5, 2]);
 
+
+
   return (
-    <motion.div 
-    style={{
-      scale
-    }}
+    <motion.div
+    style={scale} 
     id="me" className="sm:grid grid-cols-2 p-12 bg-[#1C3879] sm:m-20 m-5 rounded-2xl justify-center items-center drop-shadow-2xl"
     >
       <div className="text-center">

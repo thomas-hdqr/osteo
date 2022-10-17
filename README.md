@@ -1,5 +1,4 @@
-Built with Nextjs, Reactjs, Tailwindcss
-
+Built with Nextjs, Reactjs, Tailwindcss and Framer Motion
 ###### Things to improve ######
 - add framer motion or locomotiv scroll ? motion one
 - add animation to who card component
