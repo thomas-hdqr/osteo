@@ -21,7 +21,7 @@ function Bouton() {
           onClick={handleClick}
         >
           <p className="pr-4 text-sm sm:text-xl font-medium">Prendre un rendez-vous</p>
-          <Image src={doctolib} alt='' width='80' height='80' />
+          <Image src={doctolib} alt='' width='80' height='80' className='w-10 h-10 sm:w-16 sm:h-16' />
         </a>
       </div>
     </div>

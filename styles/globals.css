@@ -98,7 +98,7 @@
     @apply text-[#F9F5EB] text-xl text-center font-thin 
   }
   .bouton-doctolib {
-    @apply sm:w-96 flex flex-row outline outline-2 rounded-2xl hover:shadow-xl hover:bg-[#1C3879] hover:text-[#F9F5EB] hover:outline-[#1C3879] cursor-pointer place-items-center justify-center
+    @apply py-5 sm:w-96 flex flex-row outline outline-2 rounded-2xl hover:shadow-xl hover:bg-[#1C3879] hover:text-[#F9F5EB] hover:outline-[#1C3879] cursor-pointer place-items-center justify-center
   } 
 }
 
