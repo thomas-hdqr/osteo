@@ -25,9 +25,9 @@ export default function Home() {
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "HealthAndBeautyBusiness",
-                "name": "Anaïs Haudiquer - Ostéopathe",
-                "image": "https://www.anaishaudiquer-osteopathe.fr/anais.webp",
-                "url": "https://www.anaishaudiquer-osteopathe.fr",
+                "name": "Anaïs Haudiquer - Ostéopathe à Roanne",
+                "image": "https://www.osteo-roanne.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.60bb35e6.png&w=828&q=75",
+                "url": "https://www.osteo-roanne.com/",
                 "telephone": "+33788610451",
                 "email": "anaishaudiquer.osteo@gmail.com",
                 "address": {
