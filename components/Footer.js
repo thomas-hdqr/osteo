@@ -7,7 +7,7 @@ function Footer() {
         <div className="pb-8">
           <p className="footer-title">Horaires</p>
           <p className="footer-items">Lundi: 9h-21h</p>
-          <p className="footer-items">Mardi: Fermé</p>
+          <p className="footer-items">Mardi: 9h-21h</p>
           <p className="footer-items">Mercredi: 8h-13h</p>
           <p className="footer-items">Jeudi: 9h-21h</p>
           <p className="footer-items">Vendredi: 9h-21h</p>
